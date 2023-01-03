@@ -1,0 +1,185 @@
+
+body{
+    background-color: #004643;
+}
+
+
+body header h1 a{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100px;
+}
+
+#primercuadro{
+
+    width: 100%;
+    height: 100vh;
+    border: solid red 10px;
+    
+}
+
+.primercuadro__a{
+
+        height: 120px;
+        color: #fffffe;
+        padding-left: 10px;
+        padding-right: 10px;
+}
+
+.primercuadro__a header h1 a{
+
+    color: black;
+}
+
+.primercuadro__a div a{
+    background-color: aqua;
+    height: 20%;
+}
+
+.primercuadro__a main img{
+    width: 75%;
+    height: 300px;
+    border: solid red 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+h1{
+    color: #fffffe;
+    background-color: #f9bc60;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}   
+
+header h1 a{
+    color: #fffffe;
+    background-color: #f9bc60;
+    text-align: center;
+    
+}
+
+nav ul{
+    font-size: 15px;
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+
+}
+
+nav ul ul{
+    position: absolute;
+    display: none;
+}
+
+nav ul li:hover ul{
+    display: block;
+
+}
+
+nav ul li:hover ul li a{
+    background-color:#abd1c6;
+
+}
+
+nav ul ul li{
+    display: block;
+    
+}
+
+nav ul li a{
+    color:black;
+
+}
+
+nav ul li a:hover{
+    color: red;
+}
+
+.foto{
+    width: 20%;
+}
+
+p{
+    color: #fffffe;
+}
+
+nav h1 ul li a{
+    color: #fffffe;
+    font-family: 'Rubik Glitch', cursive;
+}
+
+h2{
+    color: #fffffe;
+    background-color: #f9bc60;
+    font-family: 'Rubik Glitch', cursive; 
+}
+
+.titulotabla{
+    color: #fffffe;
+    font-family: 'Rubik Glitch', cursive
+}
+
+.titulotabla--campeon{
+    color: #fffffe;
+    font-family: 'Rubik Glitch', cursive
+}
+
+td{
+    border-block-start-style: double;
+    color: #ffd803;
+}
+
+.ganados{
+    color: rgb(7, 247, 7);
+}
+
+.perdidos{
+    color: red;
+}
+
+.bordes{
+    border: solid 2px red;
+}
+
+.clasificacion{
+    display: inline-block;
+}
+
+.clasificacion__b{
+    display: inline-block;
+}
+
+#campeon{
+    background-color:#f9bc60;
+    display: inline-block;
+    color: #001e1d;
+}
+
+#campeonb{
+    background-color:#f9bc60;
+    display: inline-block;
+    color: #001e1d;
+}
+
+nav{
+    background-color: #abd1c6;
+}
+
+#video{
+    background-color: #001e1d;
+}
+
+footer{
+    background-color: #abd1c6;
+}
+
+footer p{
+    color:#fffffe;
+    size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 300%;
+}
